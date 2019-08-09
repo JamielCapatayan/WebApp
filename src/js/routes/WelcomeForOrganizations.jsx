@@ -30,6 +30,7 @@ import Section, {
   NetworkImage,
 } from '../components/Welcome/Section';
 import WelcomeAppbar from '../components/Navigation/WelcomeAppbar';
+import welcomeForOrganizationImage from '../../img/welcome/WelcomeForOrganizations-PollingLocationScreenShot.png'
 
 class WelcomeForOrganizations extends Component {
   static propTypes = {
@@ -199,7 +200,7 @@ class WelcomeForOrganizations extends Component {
           </SectionTitle>
           <DescriptionContainer>
             <DescriptionImageColumn>
-              <Image src={cordovaDot('/img/welcome/WelcomeForOrganizations-PollingLocationScreenShot.png')} />
+              <Image src={cordovaDot(welcomeForOrganizationImage)} />
             </DescriptionImageColumn>
             <DescriptionLeftColumn>
               <Description>
